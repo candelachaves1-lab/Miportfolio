@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Laila:wght@300;400;500;600;700&family=Spicy+Rice&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.typekit.net/zno7tml.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <button class="burger">☰</button>
+        <nav>
+            <a href=#inicio>Inicio</a>
+            <a href=#sobre-mi>Sobre mi</a>
+            <a href=#proyectos>Proyectos</a>
+            <a href=#contacto>Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+
+            <h1>Portfolio</h1>
+        </section>
+        <section id="sobre-mi">
+            <div class="contenedor-foto">
+                <img src="./assets/img/iiiiiiir.jpg" alt="cande" class="cande">
+                <img src="./assets/img/cat_15133105 (1).png" class="sticker-gato">
+                <img src="./assets/img/flower_7592547.png" class="sticker-flor">
+            </div>
+            <div class="sobre-mi-texto">
+                <h4>Sobre mi</h4>
+                <h3>Candela Chaves</h3>
+                <p> Soy estudiante de Diseño Gráfico apasionada por crear desde logos hasta ilustraciones. Me
+                    especializo en identidad visual, piezas para redes sociales, patterns y animación. Cada proyecto es
+                    una oportunidad para contar una historia a través del diseño.
+
+                </p>
+
+                <div class="soft-serv">
+                    <div>
+                        <h4>Software</h4>
+                        <img src="./assets/img/illustrator.png" alt="ilustrator" width="50px">
+                        <img src="./assets/img/photoshop.png" alt="photoshop" width="50px">
+                        <img src="./assets/img/after-effects.png" alt="After after-effects" width="50px">
+                        <img src="./assets/img/premiere-pro.png" alt="premiere-pro" width="50px">
+                        <img src="./assets/img/figma.png" alt="figma" width="50px">
+                    </div>
+                    <div>
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li>Diseño de logo</li>
+                            <Li>Identidad visual</Li>
+                            <li>ilustracion</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+        <section id="proyectos">
+            <h3>Proyectos</h3>
+            <div class="seccion-proyectos">
+
+                <a href="./branding.html" class="card">
+                    <img src="./assets/img/tarjeta.jpg" alt="tarjeta">
+                    <p>Identidad Visual</p>
+                </a>
+                <a href="./ilustracion.html" class="card">
+                    <img src="./assets/img/cookies.jpg" alt="cookies">
+                    <p>Ilustración Digital</p>
+                </a>
+                <a href="./animacion.html" class="card">
+                    <img src="./assets/img/video .jpg" alt="collage">
+                    <p>Animación</p>
+                </a>
+                <a href="./Patterns.html" class="card">
+                    <img src="./assets/img/pattern.jpg" alt="copas">
+                    <p>Seamless Patterns</p>
+                </a>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <h3>Trabajemos juntos</h3>
+        <div class="redes">
+            <a href="http://www.instagram.com/cande__chaves/"><i class="fa-brands fa-instagram"></i></a>
+            <a href=><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
+    <script>
+    document.querySelector('.burger').addEventListener('click', () => {
+      document.querySelector('nav').classList.toggle('abierto');
+    });
+  </script>
+</body>
+
+</html>
